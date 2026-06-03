@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  command = "echo 'No build step'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[forms]
+  [forms.contact]
+    notifications = ["anna.golovanova@mail.ru"]
